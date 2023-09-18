@@ -31,7 +31,7 @@ def getClosing(ticker):
     return closingList
 
 # Creates the charts folder
-try
+try:
     Path("charts").mkdir()
 except FileExistsError:
     pass
