@@ -5,10 +5,14 @@ Derrick Aragon
 
 
 ## Description
+This project should show the 5 closing prices of Microsoft, Nvidia, AMC, Walmart, and Nintendo
 
 ## Pip install instructions
 
 Please run the following:
 ```
 pip install -r requirements.txt
+pip install matplotlib
+pip install yfinance
+
 ```
