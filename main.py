@@ -7,7 +7,7 @@
 import yfinance as yf
 import numpy as np
 import matplotlib.pyplot as plt
-
+from pathlib import Path
 
 
 #(20/20 points) Using an API of your choice (yfinance works), collect the closing price of 5 of your favorite stock tickers for the last 10 trading days.
@@ -29,6 +29,12 @@ def getClosing(ticker):
     print(closingList)
 
     return closingList
+
+# Creates the charts folder
+try
+    Path("charts").mkdir()
+except FileExistsError:
+    pass
 
 #(10/10 points) Store this information in a list that you will convert to a array in NumPy.
 
