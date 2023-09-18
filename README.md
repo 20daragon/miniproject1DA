@@ -16,3 +16,11 @@ pip install matplotlib
 pip install yfinance
 
 ```
+
+## How to run
+While in a terminal window
+```
+
+run python main.py 
+
+```
